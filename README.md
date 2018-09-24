@@ -12,7 +12,8 @@ This is an assignment project from the [UDacity Full Stack Web Developer program
 contained in the `sql_project-master` folder are the following content:
 1. `report.py` the main python file which, when executed, prints the results of the above three questions.
 The logic of the program is straight forward: loads the sql file for each questions and then prints the answer.
-The result printed is as follows:
+- The code is formatted according to `PEP8` standard using `autopep8 --in-place --aggressive --aggressive report.py`
+- The result printed is as follows:
 ```
 1. What are the most popular three articles of all time?
 "Candidate is jerk, alleges rival" -- 338647 views
@@ -37,7 +38,7 @@ July 17,2016 -- 2.3% errors
 	 3. `error_prone_date.sql` is for the 3rd question `On which days did more than 1% of requests lead to errors?`
 please refer to the SQL files for the detailed logic of each query.
 
-This site is built according to the [UDacity project rubric](https://review.udacity.com/#!/rubrics/277/view).
+- This site is built according to the [UDacity project rubric](https://review.udacity.com/#!/rubrics/277/view).
 
 ### Prerequisites
 
