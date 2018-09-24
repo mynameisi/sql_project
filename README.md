@@ -9,7 +9,7 @@ This project is an `internal reporting tool` that is design to answer the follow
 
 This is an assignment project from the [UDacity Full Stack Web Developer program Nanodegree Program](https://www.udacity.com/course/full-stack-web-developer-nanodegree--nd004).
 
-contained in the `python` folder are the following content:
+contained in the `sql_project-master` folder are the following content:
 1. `report.py` the main python file which, when executed, prints the results of the above three questions.
 The logic of the program is straight forward: loads the sql file for each questions and then prints the answer.
 The result printed is as follows:
