@@ -37,6 +37,8 @@ July 17,2016 -- 2.3% errors
 	 3. `error_prone_date.sql` is for the 3rd question `On which days did more than 1% of requests lead to errors?`
 please refer to the SQL files for the detailed logic of each query.
 
+This site is built according to the [UDacity project rubric](https://review.udacity.com/#!/rubrics/277/view).
+
 ### Prerequisites
 
 - `python 2` or `python 3` is required for this project
