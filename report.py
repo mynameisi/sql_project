@@ -36,7 +36,9 @@ error_prone_date_result_format = "{} -- {}% errors"
 
 print('1. What are the most popular three articles of all time?')
 print_result(pop_article_sql, pop_article_result_format)
+print("")
 print('2. Who are the most popular article authors of all time?')
 print_result(pop_author_sql, pop_author_result_format)
+print("")
 print('3. On which days did more than 1% of requests lead to errors?')
 print_result(error_prone_date_sql, error_prone_date_result_format)
