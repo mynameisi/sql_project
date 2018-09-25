@@ -45,10 +45,10 @@ please refer to the SQL files for the detailed logic of each query.
 ### Prerequisites
 
 - `python 2` or `python 3` is required for this project
-- A [Linux virtual machine with course specific settings](https://classroom.udacity.com/nanodegrees/nd004-mena/parts/a8609286-c119-4bc5-b9c9-2a3828080114/modules/56f0f4c7-d611-4949-b8d5-e1b9df12d95f/lessons/e168714c-3584-4569-bd1f-3d623c07b0ac/concepts/14c72fe3-e3fe-4959-9c4b-467cf5b7c3a0) is required for this project. A detailed process from (UDacity)[https://classroom.udacity.com/nanodegrees/nd004-cn/parts/d3335c49-3556-488a-9f63-c0d28b16ff12/modules/bc51d967-cb21-46f4-90ea-caf73439dc59/lessons/5475ecd6-cfdb-4418-85a2-f2583074c08d/concepts/14c72fe3-e3fe-4959-9c4b-467cf5b7c3a0] is as following:
-	1. Install (VirtualBox)[https://www.virtualbox.org/wiki/Download_Old_Builds_5_1]
-	2. Install (Vagrant)[https://www.vagrantup.com/downloads.html]
-	3. Download the (VM configuration)[https://s3.amazonaws.com/video.udacity-data.com/topher/2018/April/5acfbfa3_fsnd-virtual-machine/fsnd-virtual-machine.zip]
+- A [Linux virtual machine with course specific settings](https://classroom.udacity.com/nanodegrees/nd004-mena/parts/a8609286-c119-4bc5-b9c9-2a3828080114/modules/56f0f4c7-d611-4949-b8d5-e1b9df12d95f/lessons/e168714c-3584-4569-bd1f-3d623c07b0ac/concepts/14c72fe3-e3fe-4959-9c4b-467cf5b7c3a0) is required for this project. A detailed process from [UDacity](https://classroom.udacity.com/nanodegrees/nd004-cn/parts/d3335c49-3556-488a-9f63-c0d28b16ff12/modules/bc51d967-cb21-46f4-90ea-caf73439dc59/lessons/5475ecd6-cfdb-4418-85a2-f2583074c08d/concepts/14c72fe3-e3fe-4959-9c4b-467cf5b7c3a0) is as following:
+	1. Install [VirtualBox](https://www.virtualbox.org/wiki/Download_Old_Builds_5_1)
+	2. Install [Vagrant](https://www.vagrantup.com/downloads.html)
+	3. Download the [VM configuration](https://s3.amazonaws.com/video.udacity-data.com/topher/2018/April/5acfbfa3_fsnd-virtual-machine/fsnd-virtual-machine.zip)
 - `PosgreSQL` is required for this project. It comes with the virtual machine
 - [newsdata.sql](https://d17h27t6h515a5.cloudfront.net/topher/2016/August/57b5f748_newsdata/newsdata.zip) outght to be downloaded and pre-executed to populate the database with data
 
