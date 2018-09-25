@@ -10,8 +10,7 @@ FROM
   (SELECT TIME::TIMESTAMP::date AS date,
           count(*) AS cnt
    FROM log
-   WHERE status LIKE '4%'
-     OR status LIKE '5%'
+   WHERE status != '200 OK'
    GROUP BY date) AS error_cnt --total number of error requests on each date
 
 JOIN

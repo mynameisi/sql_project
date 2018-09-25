@@ -1,9 +1,13 @@
+#!/usr/bin/env python3
+
 import psycopg2
 
 
 def execute_query(sql):
-    # input: an SELECT SQL query
-    # output: the result of executing such query against database "news"
+    """
+    input: an SELECT SQL query
+    output: the result of executing such query against database:news
+    """
     db = psycopg2.connect(database="news")
     c = db.cursor()
     c.execute(sql)
@@ -13,14 +17,14 @@ def execute_query(sql):
 
 
 def load_sql(file):
-    # loads the sql command from sql file into a string
+    """loads the sql command from sql file into a string"""
     with open(file, "r") as sql_file:
         sql = sql_file.read()
     return sql
 
 
 def print_result(sql, result_format):
-    # prints the result with specific format
+    """prints the result with specific format"""
     for (t1, t2) in execute_query(sql):
         print(result_format.format(t1, t2))
 
